@@ -3,19 +3,19 @@
 Ten projekt zawiera kod do klasyfikacji pasażerów Titanica na podstawie danych z zestawu danych dostępnego w seaborn (dataset titanic). Wykorzystano m.in. techniki przetwarzania danych, pipeline oraz GridSearchCV do strojenia hiperparametrów modeli. W projekcie testowane są dwa podejścia: RandomForestClassifier oraz LogisticRegression.  
 Zawartość  
 
-    *Preprocessing*:  
+    Preprocessing:  
     Rozdzielenie cech numerycznych i kategorycznych, uzupełnianie brakujących wartości oraz skalowanie/one-hot encoding.    
 
-    *Model*:  
+    Model:  
     Pipeline łączący preprocessing z modelem klasyfikacyjnym. Na początkowym etapie wykorzystywany jest RandomForestClassifier, a następnie testowany jest również LogisticRegression.  
 
-    *Strojenie hiperparametrów*:  
+    Strojenie hiperparametrów:  
     GridSearchCV wykorzystany do wyszukania optymalnych hiperparametrów dla modelu.  
 
-    *Ewaluacja*:  
+    Ewaluacja:  
     Raport klasyfikacji, macierz pomyłek oraz wizualizacja ważności cech dla najlepszego modelu.  
 
-    *Przykład predykcji dla użytkownika*:  
+    Przykład predykcji dla użytkownika:  
     Sekcja umożliwiająca wprowadzenie danych użytkownika i otrzymanie przewidywania (czy pasażer przeżył).  
 
 ## Instalacja
