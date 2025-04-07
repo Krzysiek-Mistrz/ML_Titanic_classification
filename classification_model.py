@@ -116,3 +116,22 @@ plt.xlabel('predicted')
 plt.ylabel('real')
 plt.tight_layout()
 plt.show()
+
+
+#user pred
+user_input = {
+    'pclass': 3,
+    'sex': 'male',
+    'age': 29,
+    'sibsp': 0,
+    'parch': 0,
+    'fare': 7.25,
+    'class': 'Third',
+    'who': 'man',
+    'adult_male': True,
+    'alone': True
+}
+user_df = pd.DataFrame([user_input])
+prediction = model.predict(user_df)
+result = "przezyl" if prediction[0] == 1 else "nie przezyl"
+print("predykcja dla usera:", result)
