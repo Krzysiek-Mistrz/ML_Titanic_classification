@@ -34,10 +34,10 @@ Sklonuj repozytorium:
 ```git clone https://github.com/Krzysiek-Mistrz/ML_Titanic_classification.git```  
 
 Przejdź do katalogu projektu:  
-`cd ML_Titanic_classification`  
+`cd ML_Titanic_classification/src`  
 
 Uruchom skrypt:  
-    ```python classification_model.py```  
+    ```python main.py```  
 
 Struktura kodu:  
 Kod wykonuje następujące kroki:  
